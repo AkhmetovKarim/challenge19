@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Gallery from './Gallery';
-
+import './styles/styles.css'; // Import the global styles
 function App() {
   const [tours, setTours] = useState([
     { id: 1, name: 'Tour A', description: 'Description for Tour A' },
